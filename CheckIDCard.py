@@ -18,3 +18,5 @@ def checkIDCard(num_str):
 
 num_str = input("Please input the standard second-generation ID number\n")
 checkIDCard(num_str)
+
+
