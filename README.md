@@ -1,4 +1,4 @@
-# CheckIDNumber
+# CheckIDCrad
 Verification of China's second-generation ID card number
 
 # Statement
@@ -6,14 +6,14 @@ An ID number verification tool written by Python
 
 # Usage
 ~~~
-python3 CheckIDNumber.py
+python3 CheckIDCard.py
 
 # Input the ID number to be verified
 ~~~
 
 # Source code
 ~~~
-def checkIDNumber(num_str):
+def checkIDCard(num_str):
     str_to_int = {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5,
                   '6': 6, '7': 7, '8': 8, '9': 9, 'X': 10}
     check_dict = {0: '1', 1: '0', 2: 'X', 3: '9', 4: '8', 5: '7',
@@ -32,6 +32,6 @@ def checkIDNumber(num_str):
 
 
 num_str = input("Please input the standard second-generation ID number\n")
-checkIDNumber(num_str)
+checkIDCard(num_str)
 ~~~
 
