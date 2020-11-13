@@ -25,9 +25,9 @@ def checkIDNumber(num_str):
         if index == 17:
             right_code = check_dict.get(check_num % 11)
             if num == right_code:
-                print(u"ID Number: %s Correct!" % num_str)
+                print(u"ID Number: %s \n Correct!" % num_str)
             else:
-                print(u"ID Number: %s Error, the correct end number is：%s" % (num_str, right_code))
+                print(u"ID Number: %s \n Error, the correct end number is：%s" % (num_str, right_code))
         check_num += str_to_int.get(num) * (2 ** (17 - index) % 11)
 
 
