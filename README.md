@@ -12,7 +12,7 @@ python3 CheckIDCard.py
 ~~~
 
 # Source code
-~~~
+```python
 def checkIDCard(num_str):
     str_to_int = {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5,
                   '6': 6, '7': 7, '8': 8, '9': 9, 'X': 10}
@@ -33,5 +33,5 @@ def checkIDCard(num_str):
 
 num_str = input("Please input the standard second-generation ID number\n")
 checkIDCard(num_str)
-~~~
+```
 
